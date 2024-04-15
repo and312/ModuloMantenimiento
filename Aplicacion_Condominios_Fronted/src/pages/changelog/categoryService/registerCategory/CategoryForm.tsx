@@ -38,7 +38,7 @@ export const CategoryForm: React.FC<CategoryFormProps> = ({ onRegister }) => {
   return (
     <form onSubmit={handleSubmit} id="form-field">
       <div className="input">
-        <p>Nombre de la categoría</p>
+        <p>Nombre de la categoríAAAa</p>
         <input
           type="text"
           value={name}

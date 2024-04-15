@@ -18,6 +18,8 @@ import NotificationPage from "../pages/notifications/NotificationPage";
 import NotificationsActiveIcon from '@mui/icons-material/NotificationsActive';
 import EmployePage from "../pages/employes/EmployePage";
 import EngineeringIcon from '@mui/icons-material/Engineering';
+//Prueba
+import PersonalPage from "../pages/personal/PersonalPage";
 
 const appRoutes: RouteType[] = [
   {
@@ -133,6 +135,18 @@ const appRoutes: RouteType[] = [
     }
   },
   
+
+  {
+    path: "/personal",
+    element: <PersonalPage/>,
+    state: "changelog",
+    sidebarProps: {
+      displayText: "Personal",
+      icon: <BuildIcon />
+    }
+  },
+  
 ];
+
 
 export default appRoutes;
